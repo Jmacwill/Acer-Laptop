@@ -7,14 +7,14 @@
   # ex "monitor=HDMI-A-1, 1920x1080@60,auto,1"
   #
   extraMonitorSettings = "
-    monitor = eDP-1,1920x1080@60,auto,1.25
+    monitor = eDP-1,1920x1080@60,auto,1
     ";
 
   # Waybar Settings
   clock24h = false;
 
   # Program Options
-  browser = "google-chrome-stable"; # Set Default Browser (google-chrome-stable for google-chrome)
+  browser = "brave"; # Set Default Browser (google-chrome-stable for google-chrome)
   terminal = "ghostty"; # Set Default System Terminal
   keyboardLayout = "us";
   consoleKeyMap = "us";
@@ -33,10 +33,10 @@
   thunarEnable = true;
 
   # Set Stylix Image
-  stylixImage = ../../wallpapers/AnimeGirlNightSky.jpg;
+  #stylixImage = ../../wallpapers/AnimeGirlNightSky.jpg;
   #stylixImage = ../../wallpapers/nix-wallpaper-stripes-logo.png;
   #stylixImage = ../../wallpapers/beautifulmountainscape.png;
-  #stylixImage = ../../wallpapers/mountainscapedark.jpg;
+  stylixImage = ../../wallpapers/mountainscapedark.jpg;
   #stylixImage = ../../wallpapers/Rainnight.jpg;
   #stylixImage = ../../wallpapers/zaney-wallpaper.jpg;
 
