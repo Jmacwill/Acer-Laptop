@@ -3,5 +3,9 @@
     audacity
     discord
     nodejs
+    libreoffice
+    freecad-wayland
+    calculix-ccx
+    gmsh
   ];
 }
