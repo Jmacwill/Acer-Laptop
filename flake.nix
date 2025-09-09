@@ -30,8 +30,8 @@
     }@inputs:
     let
       system = "x86_64-linux";
-      host = "nixtop";
-      profile = "vm";
+    host = "nixtop";
+    profile = "amd";
       username = "jonathan";
 
       # Deduplicate nixosConfigurations while preserving the top-level 'profile'

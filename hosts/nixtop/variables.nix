@@ -57,7 +57,7 @@
   enableNFS = true;
 
   # Enable Printing Support
-  printEnable = false;
+  printEnable = true;
 
   # Enable Thunar GUI File Manager
   # Yazi is default File Manager
@@ -71,10 +71,10 @@
   # This will set your color palette
   # Default background
   # Add new images to ~/zaneyos/wallpapers
-  stylixImage = ../../wallpapers/mountainscapedark.jpg;
+  #stylixImage = ../../wallpapers/mountainscapedark.jpg;
   #stylixImage = ../../wallpapers/AnimeGirlNightSky.jpg;
   #stylixImage = ../../wallpapers/Anime-Purple-eyes.png;
-  #stylixImage = ../../wallpapers/Rainnight.jpg;
+  stylixImage = ../../wallpapers/Rainnight.jpg;
   #stylixImage = ../../wallpapers/zaney-wallpaper.jpg;
   #stylixImage = ../../wallpapers/nix-wallpapers-strips-logo.jpg;
   #stylixImage = ../../wallpapers/beautifulmountainscape.jpg;
@@ -99,9 +99,9 @@
   # animations-end4.nix (end-4 project very fluid)
   # animations-dynamic.nix (ml4w project)
   # animations-moving.nix (ml4w project)
-  animChoice = ../../modules/home/hyprland/animations-def.nix;
+  #animChoice = ../../modules/home/hyprland/animations-def.nix;
   #animChoice = ../../modules/home/hyprland/animations-end4.nix;
-  #animChoice = ../../modules/home/hyprland/animations-dynamic.nix;
+  animChoice = ../../modules/home/hyprland/animations-dynamic.nix;
   #animChoice = ../../modules/home/hyprland/animations-moving.nix;
 
   # Set network hostId if required (needed for zfs)
