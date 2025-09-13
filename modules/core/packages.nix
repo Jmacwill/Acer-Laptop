@@ -9,6 +9,15 @@
       enable = true;
       defaultEditor = true;
     };
+    # direnv section    
+    direnv = {
+      enable = true;
+      nix-direnv = {
+        enable = true;
+        package = pkgs.nix-direnv;
+      };
+    };
+    # end of direnv section
     firefox.enable = false; # Firefox is not installed by default
     hyprland = {
       enable = true; # set this so desktop file is created
