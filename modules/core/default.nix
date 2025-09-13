@@ -13,6 +13,7 @@ in
     ./flatpak.nix
     ./fonts.nix
     ./hardware.nix
+    ./nasModule.nix
     ./network.nix
     ./nfs.nix
     ./nh.nix

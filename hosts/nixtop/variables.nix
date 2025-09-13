@@ -27,7 +27,7 @@
   # You can configure multiple monitors.
   # Inside the quotes, create a new line for each monitor.
   extraMonitorSettings = "
-  monitor = eDP-1,1920x1080@60,auto,1.25
+  monitor = eDP-1,1920x1080@60,auto,1
     ";
 
   # Waybar Settings
@@ -100,8 +100,8 @@
   # animations-dynamic.nix (ml4w project)
   # animations-moving.nix (ml4w project)
   #animChoice = ../../modules/home/hyprland/animations-def.nix;
-  #animChoice = ../../modules/home/hyprland/animations-end4.nix;
-  animChoice = ../../modules/home/hyprland/animations-dynamic.nix;
+  animChoice = ../../modules/home/hyprland/animations-end4.nix;
+  #animChoice = ../../modules/home/hyprland/animations-dynamic.nix;
   #animChoice = ../../modules/home/hyprland/animations-moving.nix;
 
   # Set network hostId if required (needed for zfs)
