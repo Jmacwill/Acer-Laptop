@@ -3,5 +3,7 @@
     audacity
     discord
     nodejs
+    scribus
+    inkscape-with-extensions
   ];
 }
