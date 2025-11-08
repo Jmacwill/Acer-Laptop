@@ -18,7 +18,7 @@
   # Note: This is evil-helix with VIM keybindings by default
   helixEnable = false;
   #To install: Enable here, zcli rebuild, then run zcli doom install
-  doomEmacsEnable = false;
+  doomEmacsEnable = true;
 
   # Hyprland Settings
   # Examples:
@@ -61,7 +61,7 @@
 
   # Enable Thunar GUI File Manager
   # Yazi is default File Manager
-  thunarEnable = false;
+  thunarEnable = true;
 
   # Themes, waybar and animation.
   #  Only uncomment your selection
@@ -100,9 +100,9 @@
   # animations-dynamic.nix (ml4w project)
   # animations-moving.nix (ml4w project)
   #animChoice = ../../modules/home/hyprland/animations-def.nix;
-  animChoice = ../../modules/home/hyprland/animations-end4.nix;
+  #animChoice = ../../modules/home/hyprland/animations-end4.nix;
   #animChoice = ../../modules/home/hyprland/animations-dynamic.nix;
-  #animChoice = ../../modules/home/hyprland/animations-moving.nix;
+  animChoice = ../../modules/home/hyprland/animations-moving.nix;
 
   # Set network hostId if required (needed for zfs)
   # Otherwise leave as-is

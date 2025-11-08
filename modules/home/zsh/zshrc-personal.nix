@@ -11,6 +11,7 @@
     #
     #export EDITOR="nvim"
     #export VISUAL="nvim"
+    eval "$(direnv hook zsh)"
  
     #alias c="clear"
    
