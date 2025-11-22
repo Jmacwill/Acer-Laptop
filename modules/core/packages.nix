@@ -93,5 +93,7 @@
     ytmdl # Tool For Downloading Audio From YouTube
     libreoffice-qt6-fresh #libreOffice - FRESH
     zathura #PDF viewer
+    arduino #duhhh
+    arduino-ide #duhh
   ];
 }

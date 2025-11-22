@@ -5,5 +5,6 @@
     nodejs
     scribus
     inkscape-with-extensions
+    thonny
   ];
 }
